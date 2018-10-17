@@ -152,43 +152,52 @@ header {
 	box-sizing: border-box;
 }
 
+/*.menu-header*/
 nav{
 	position: fixed;
-	background: $navBackground;
 	width: 100%;
 	z-index: 10000;
-	top: 0;
-	left: 0;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	padding: 0 20px;
-	box-sizing: border-box;
-	font-family: $fontTitle;
-	font-size: 14px;
+    top: 0;
+    left: 0;
+    height: 50px;
+    text-align: center;
+    background: #ffffffde;
 
-	ul{
-		list-style: none;
-		position: relative;
-		display: inline-block;
-		li{
-			display: inline-block;
-			
-			a{
-				display: block;
-				padding: 10px;
-				text-decoration: none;
-				text-transform: capitalize;
-				color: $textStrongColor;
+    .menu{
+    	height: inherit;
 
-				&:hover{
-					text-decoration: underline;
-				}
-			}
+    	ul{
+    		padding: 0;
+    		margin: 0;
+    		list-style: none;
+    		height: inherit;
 
-		}
-	}
+    		li{
+    			display: inline;
 
+    			a{
+    				padding: 0px 10px;
+    				text-decoration: none;
+    				text-transform: capitalize;
+    				color: #000;
+    				display: inline-block;
+    				box-sizing: border-box;
+    				height: inherit;
+    				line-height: 50px;
+    				font-family: $fontTitle;
+    				font-size: 13px;
+
+    				&:hover{
+    					color: $mainColor;
+    				}
+    			}
+    		}
+    	}
+    }
+}
+
+.current_page_item{
+	font-weight: bold;
 }
 
 
@@ -351,35 +360,7 @@ aside {
 			border-bottom: 1px solid black;
 	    	padding-bottom: 5px;
 		}
-
-		.icons-container {
-		  	position: absolute;
-		  	top: 0px;
-		  	right: 4px;
-		  	width: 20px;
-		  	height: 100%;
-		  	overflow: hidden;
-		  	line-height: 37px;
-		}
-
-		.icon-search {
-			width: 100%;
-			height: 100%;
-			opacity: 1;
-			text-align: center;
-			-webkit-transition: opacity 0.25s ease, -webkit-transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1);
-			transition: opacity 0.25s ease, -webkit-transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1);
-			transition: opacity 0.25s ease, transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1);
-			transition: opacity 0.25s ease, transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1), -webkit-transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1);
-		
-			&:before {
-				content: "\f002";
-				font-family: FontAwesome;
-				color: rgb(76, 175, 80);
-				font-size: 16px;
-				line-height: 15px;
-			}
-		}
+	
 	}
 
 	/* Widget - Popular Posts */
@@ -475,7 +456,7 @@ footer{
 		.widget-footer{
 			align-self: flex-start;
     		/*flex-basis: 30%;*/
-    		margin-top: 20px; 
+    		/*margin-top: 20px;*/
 
     		li{
     			border-bottom: 1px dotted rgba(0,0,0,.1);
@@ -603,6 +584,7 @@ h1,h2,h3, .resumo-post-title{
 	margin-bottom: 0px;
 	color: $textStrongColor;
 	font-size: 45px;
+	font-family: $personalFont;
 }
 
 .post-detail, .post-article, .post-title{
