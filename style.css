@@ -467,6 +467,7 @@ aside .widget-sidebar-title {
   font-size: 50px;
   word-spacing: 5px;
   margin: 50px 0 10px 0;
+  color: #000;
 }
 aside form label {
   display: none;
@@ -614,7 +615,8 @@ aside .wpp-thumbnail {
   border-radius: 50%;
 }
 aside .wpp-list a {
-  color: #4caf50;
+  color: #4DB6AD;
+  text-decoration: none;
 }
 aside #mc_embed_signup input[type="text"],
 aside #mc_embed_signup input[type="email"] {
@@ -648,6 +650,11 @@ aside #mc_embed_signup input[type="submit"] {
   margin-bottom: 50px;
 }
 
+.full-article .post-title {
+  color: #000;
+  font-family: "Cookie", sans-serif;
+}
+
 footer {
   width: 100%;
   position: absolute;
@@ -662,6 +669,7 @@ footer a {
 }
 footer .footer-content {
   padding-bottom: 50px;
+  background: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -796,6 +804,8 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
 
 .resumo-post-title {
   margin-bottom: 0px;
+  color: #000;
+  font-size: 45px;
 }
 
 .post-detail, .post-article, .post-title {
@@ -810,6 +820,15 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
 }
 .post-detail .fa {
   margin-right: 5px;
+}
+
+.post-article .aligncenter {
+  display: block;
+  margin: auto;
+}
+.post-article .size-full {
+  width: 100%;
+  height: auto;
 }
 
 .resumo-posts {
@@ -1001,6 +1020,11 @@ p.prompt.erro404 {
 .post-detail-footer a {
   color: inherit;
   text-decoration: underline;
+}
+.post-detail-footer .post-tags a {
+  background: #4DB6AD;
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
 .related-posts {
