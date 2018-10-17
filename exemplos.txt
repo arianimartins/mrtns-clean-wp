@@ -1,0 +1,122 @@
+.class{
+	color: $textColor;
+	h1{
+		font-size: 10px;
+		font-family: $fontTitle;
+	}
+
+	@media screen and(max-width: 500px){
+		h1{
+			font-size: 5px;
+		}
+	}
+
+	.sub-class p{
+		text-align: justify;
+	}
+}
+
+
+.class{
+	color: $mainColor;
+	&:hover{
+		color: $secondColor;
+	}
+}
+
+header{
+	a{
+		&:hover, &.active, &:active{
+
+		}
+	}
+}
+
+
+nav ul li:fist-child{
+
+}
+
+nav ul li:not(:first-child){
+
+}
+
+.class{
+	&:hover{
+		&:before, &:after{}
+	}
+}
+
+
+.progress-skill{
+	div{
+		background: -webkit-linear-gradient(360deg, $secondColor, $mainColor);
+		background: -moz-linear-gradient(360deg, $secondColor, $mainColor);
+		background: -o-linear-gradient(360deg, $secondColor, $mainColor);
+		background: linear-gradient(90deg, $secondColor, $mainColor);	
+	}
+}
+
+$skillList: (ingles:90%, android:73%, html:85%);
+@mixin animaSkill($name, &limit){
+	animation: $name 3s ease-in-out;
+	@keyframes #{$name}{
+		from { width: 0; }
+		to { width: $limit; }
+	}
+}
+@each $item, $size in $skillList{
+	.visible .#{$item}-skill{
+		width: $size;
+		@include animaSkill(skill#{$item}, $size);
+	}
+}
+
+/** O estilo acima corresponde ao seguintes item */
+/**
+<div class="progress-skill"><div class="{$ITEM}-skill"></div></div>
+
+<div class="progress-skill"><div class="ingles-skill"></div></div>
+<div class="progress-skill"><div class="android-skill"></div></div>
+<div class="progress-skill"><div class="html-skill"></div></div>
+
+.progress-skill {
+  height: 10px;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+.progress-skill div {
+  background: -webkit-linear-gradient(360deg, #84fab0, #8fd3f4);
+  background: -moz-linear-gradient(360deg, #84fab0, #8fd3f4);
+  background: -o-linear-gradient(360deg, #84fab0, #8fd3f4);
+  background: -webkit-gradient(linear, left top, right top, from(#84fab0), to(#8fd3f4));
+  background: -webkit-linear-gradient(left, #84fab0, #8fd3f4);
+  background: -o-linear-gradient(left, #84fab0, #8fd3f4);
+  background: linear-gradient(90deg, #84fab0, #8fd3f4);
+  height: inherit;
+}
+
+.visible .ingles-skill {
+  width: 90%;
+  -webkit-animation: skillingles 3s ease-in-out;
+  animation: skillingles 3s ease-in-out;
+}
+@-webkit-keyframes skillingles {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@keyframes skillingles {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+*/
