@@ -1,5 +1,6 @@
 <a href="#" class="topbutton">
-	<i class="fa fa-angle-up fa-lg"></i>
+	<img src="http://sites.google.com/site/arianimartinshost/imagens/arrowtop.png"/>
+	<!--<i class="fa fa-angle-up fa-lg"></i>-->
 </a>
 <footer id="footer-page">
 	<div class="footer-content">

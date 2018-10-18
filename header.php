@@ -11,6 +11,7 @@
 
 	<!-- Animacao -->
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/animate.css">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/hover.css">
 
 	<!-- Pingback -->
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -38,11 +39,13 @@
 <body <?php body_class(); ?> >
 	<div class="main-div">
 		<header>
-			<nav class="menu-header">
-				<?php wp_nav_menu(array('theme_location'=>'principal')); ?>
+			<nav class="menu-header" id="menu-header">
+				<?php wp_nav_menu(array('theme_location'=>'principal','container_class'=>'menu-menu-principal-container')); ?>
 			</nav>
 
 			<section class="logo-section">
+				<img class="flower1" src="http://sites.google.com/site/arianimartinshost/imagens/flower1.png">
+				<img class="flower2" src="http://sites.google.com/site/arianimartinshost/imagens/flower2.png">
 				<img class="logo-image" src="http://sites.google.com/site/arianimartinshost/imagens/Assinatura1.png">
 			</section>
 		</header>

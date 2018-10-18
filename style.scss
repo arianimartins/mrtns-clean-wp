@@ -130,6 +130,10 @@ $fontContent: 'Lora', serif;
 $asideDivider: #c0c0c040;
 $copyBackground: #000;
 
+html{
+	overflow-x: hidden;
+}
+
 html,body {
 	height:100%;
 }
@@ -163,7 +167,7 @@ nav{
     text-align: center;
     background: #ffffffde;
 
-    .menu{
+    .menu, .menu-menu-principal-container{
     	height: inherit;
 
     	ul{
@@ -173,7 +177,9 @@ nav{
     		height: inherit;
 
     		li{
-    			display: inline;
+    			display: inline-block;
+    			margin: 0;
+    			padding: 0;
 
     			a{
     				padding: 0px 10px;
@@ -186,9 +192,10 @@ nav{
     				line-height: 50px;
     				font-family: $fontTitle;
     				font-size: 13px;
+    				transition: all 0.5s;
 
     				&:hover{
-    					color: $mainColor;
+    					color: #fff;
     				}
     			}
     		}
@@ -196,13 +203,11 @@ nav{
     }
 }
 
-.current_page_item{
+.current-menu-item{
 	font-weight: bold;
 }
 
-
 .logo-section{
-	background: $bodyBackground;
 	margin-top: 50px;
 	height: 200px;
 	width: 100%;
@@ -212,6 +217,25 @@ nav{
 		width: 400px;
     	padding: 10px;
     	margin-top: 20px;
+	}
+
+	.flower1{
+		width: 250px !important;
+		position: absolute;
+		right: -15px;
+		top: -15px;
+		margin: 0;
+		padding: 0;
+		z-index: -1;
+	}
+
+	.flower2{
+		position: absolute;
+		left: -15px;
+		top: -50px;
+		margin: 0;
+		padding: 0;
+		z-index: -1;
 	}
 }
 
@@ -234,6 +258,10 @@ nav{
 	overflow: hidden;
 	flex-basis: 70%;
 	padding: 40px;
+
+	a{
+		color: $mainColor;
+	}
 }
 
 aside {
@@ -360,6 +388,10 @@ aside {
 			border-bottom: 1px solid black;
 	    	padding-bottom: 5px;
 		}
+
+		#search:focus::placeholder{
+			color: transparent !important;
+		}
 	
 	}
 
@@ -426,6 +458,8 @@ aside {
 	.post-title{
 		color: $textStrongColor;
 		font-family: $personalFont;
+		font-size: 40px;
+		margin-bottom: 0;
 	}
 }
 
@@ -553,7 +587,7 @@ footer{
 }
 
 .topbutton {
-    background: none repeat scroll 0 0 rgb(46, 142, 67);
+    background: none repeat scroll 0 0 $mainColor;
     border-radius: 50%;
     color: rgb(255,255,255) !important;
     bottom: 2em;
@@ -569,6 +603,12 @@ footer{
     transition: border 0.3s ease-in-out 0s;
     width: 3rem;
     z-index: 999999;
+
+    img {
+	    margin: auto;
+	    width: 30px;
+	    margin-top: 8px;
+	}
 }
 
 h1,h2,h3, .resumo-post-title{
@@ -631,7 +671,7 @@ h1,h2,h3, .resumo-post-title{
 /*Página 404*/
 	.terminal{
 		.prompt {
-			color: $mainColor;
+			color: #000;
 			display: block;
 			font-family: 'AndaleMono', monospace;
 			font-weight: bold;
@@ -647,6 +687,10 @@ h1,h2,h3, .resumo-post-title{
 				content: '> ';
 	  			display: inline-block;
 			}
+
+			a{
+				color: $mainColor;
+			}
 		}
 
 		.new-output {
@@ -658,7 +702,7 @@ h1,h2,h3, .resumo-post-title{
 			  	width: 0.75em;
 			  	height: 1em;
 			  	margin-left: 5px;
-			  	background: #1ff042;
+			  	background: #000;
 			  	/*box-shadow: 1px 1px 1px rgba(31, 240, 66, 0.65), -1px -1px 1px rgba(31, 240, 66, 0.65), 1px -1px 1px rgba(31, 240, 66, 0.65), -1px 1px 1px rgba(31, 240, 66, 0.65);*/
 			  	-webkit-animation: cursor-blink 1.25s steps(1) infinite;
 			  	-moz-animation: cursor-blink 1.25s steps(1) infinite;
@@ -685,7 +729,7 @@ h1,h2,h3, .resumo-post-title{
 	}
 
 	p.prompt.erro404 {
-	    background: rgb(31, 240, 66);
+	    background: #000;
 	    color: rgb(255, 255, 255);
 	    display: inline-block;
 	    padding: 2px;
@@ -792,13 +836,14 @@ h1,h2,h3, .resumo-post-title{
 				background: $mainColor;
 				padding: 0px 5px;
 				border-radius: 5px;
+				color: #fff;
 			}
 		}
 	}
 
 	.related-posts {
 	    width: 100%;
-	    margin: 0 0 20px 0;
+	    margin: 20px 0 20px 0;
 	    font-size: 12px;
 	    box-sizing: border-box;
 	    overflow: hidden;
@@ -895,6 +940,7 @@ h1,h2,h3, .resumo-post-title{
 	    border-radius: 5px;
 	    box-shadow: 1px 1px 1px rgba(0,0,0,.2);
 	    color: rgb(255, 255, 255) !important;
+	    text-decoration: none;
 	}
 
 	.view-comentarios .children {
@@ -933,6 +979,10 @@ h1,h2,h3, .resumo-post-title{
 	    justify-content: space-between;
 	    margin-bottom: 10px;
 	    position: relative;
+	}
+
+	.view-comentarios .comment-metadata a {
+	    text-decoration: none;
 	}
 
 

@@ -3,7 +3,8 @@
 //Carrega folha de estilo e scripts
 function add_theme_scripts(){
 	wp_enqueue_style('style', get_stylesheet_uri(), false, '1.1', 'all');
-	wp_enqueue_script('scripts', get_template_directory_uri() .'/js/scripts.js', array('jquery'), null, true);
+	//wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.2', 'all' );
+	wp_enqueue_script('scripts', get_template_directory_uri() .'/scripts/scripts.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'add_theme_scripts');
 
