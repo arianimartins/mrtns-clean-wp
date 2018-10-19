@@ -627,6 +627,14 @@ h1,h2,h3, .resumo-post-title{
 	font-family: $personalFont;
 }
 
+.post-divider{
+	text-align: center;
+	img{
+		width: 40%;
+		margin: auto; 
+	}
+}
+
 .post-detail, .post-article, .post-title{
 	margin-left: 20px;
     margin-right: 20px;

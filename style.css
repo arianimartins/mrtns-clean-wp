@@ -834,6 +834,14 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
   font-family: "Cookie", sans-serif;
 }
 
+.post-divider {
+  text-align: center;
+}
+.post-divider img {
+  width: 40%;
+  margin: auto;
+}
+
 .post-detail, .post-article, .post-title {
   margin-left: 20px;
   margin-right: 20px;

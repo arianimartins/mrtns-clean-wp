@@ -10,6 +10,6 @@
 		<?php the_excerpt(); ?>
 	</article>
 	<div class="post-divider">
-		<img src="">
+		<img src="http://sites.google.com/site/arianimartinshost/imagens/divisoria1.png">
 	</div>
 </div>
