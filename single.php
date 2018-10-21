@@ -6,15 +6,15 @@
 			<article class="full-article" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
 				<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'slide-home'); ?>
 				<?php if($image[0]){ ?>
-					<div class="img-destaque" style="background:url(<?php echo $image[0]; ?>)"></div>
-					<h1 class="post-title withimg"><?php the_title(); ?></h1>
+					<div class="img-destaque" style="background-image:url(<?php echo $image[0]; ?>)"></div>
+					<h1 class="post-title personalFont withimg"><?php the_title(); ?></h1>
 				<?php }else{ ?>
 					<h1 class="post-title personalFont"><?php the_title(); ?></h1>
 				<?php } ?>
 				<div class="post-detail">
 					<i class="fa fa-calendar-o"></i>Data: <?php echo get_the_date('d.m.Y'); ?>&nbsp;
 					<i class="fa fa-folder-o"></i>Categoria: <?php the_category(', '); ?>&nbsp;
-					<i class="fa fa-hourglass-o"></i><!--<?php //post_read_time(); ?>-->&nbsp;
+					<i class="fa fa-hourglass-o"></i><?php post_read_time(); ?>&nbsp;
 					<?php edit_post_link('<i class="fa fa-pencil"></i> Editar Post'); ?>
 				</div>
 				<div class="post-article">

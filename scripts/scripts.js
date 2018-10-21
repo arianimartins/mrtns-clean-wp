@@ -22,7 +22,7 @@
 		var $footer = $('footer');
 		var $footerHeight = $footer.height();
 
-		$('section.main-section').delay(110).css({'padding-bottom':$footerHeight + 30});
+		$('section.main-section').delay(300).css({'padding-bottom':$footerHeight + 30});
 	});
 
 

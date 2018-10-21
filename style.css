@@ -462,7 +462,7 @@ nav .menu ul li a:hover, nav .menu-menu-principal-container ul li a:hover {
   justify-content: center;
   -ms-flex-line-pack: start;
   align-content: flex-start;
-  padding-bottom: 200px;
+  padding-bottom: 500px;
   padding-top: 50px;
   margin-top: 20px;
 }
@@ -674,6 +674,12 @@ aside #mc_embed_signup input[type="submit"] {
   font-size: 40px;
   margin-bottom: 0;
 }
+.full-article .img-destaque {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
 
 footer {
   width: 100%;
@@ -873,6 +879,20 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
 }
 .resumo-posts .post-detail {
   margin: 0px 0px 15px 0px;
+}
+.resumo-posts .excerpt-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.resumo-posts .excerpt-container .image-resumo {
+  width: 20%;
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+  border-right: 30px double #fff;
 }
 
 /*P├ígina 404*/

@@ -248,7 +248,7 @@ nav{
     align-items: stretch;
     justify-content: center;
     align-content: flex-start;
-    padding-bottom: 200px;
+    padding-bottom: 500px;
     padding-top: 50px;
     margin-top: 20px;
 }
@@ -461,6 +461,13 @@ aside {
 		font-size: 40px;
 		margin-bottom: 0;
 	}
+
+	.img-destaque{
+		width: 100%;
+		height: 400px;
+		background-position: center;
+		background-size: cover;
+	}
 }
 
 
@@ -665,13 +672,21 @@ h1,h2,h3, .resumo-post-title{
 .resumo-posts{
 	text-align: left;
 
-	a{
-		text-decoration: none;
+	a{ text-decoration: none; }
+	.post-detail{ margin: 0px 0px 15px 0px; }
+	.excerpt-container{
+		width: 100%;
+    	display: flex;
+		.image-resumo{
+			width: 20%;
+    		min-height: 150px;
+    		background-position: center;
+    		background-size: cover;
+    		margin-right: 20px;
+    		border-right: 30px double #fff;
+		}
 	}
-
-	.post-detail{
-		margin: 0px 0px 15px 0px;
-	}
+	
 }
 
 

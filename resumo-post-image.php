@@ -7,7 +7,10 @@
 		<i class="fa fa-comment-o"></i><?php comments_number('Comente','1 comentou','% comentaram'); ?>
 	</div>
 	<article>
-		<?php the_excerpt(); ?>
+		<div class="excerpt-container">
+			<div class="image-resumo" style="background-image:url(<?php echo $image[0]; ?>)"></div>
+			<?php the_excerpt(); ?>
+		</div>
 	</article>
 	<div class="post-divider">
 		<img src="http://sites.google.com/site/arianimartinshost/imagens/divisoria1.png">
