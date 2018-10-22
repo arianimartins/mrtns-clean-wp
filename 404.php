@@ -9,9 +9,9 @@
 				<div class="terminal">
 					<p class="prompt erro404">ERRO 404</p>
 					<p class="prompt">A pagina que você está procurando não foi encontrada, tente acessar uma das opções abaixo.</p>
-					<p class="prompt"><a href="#">HOME</a> | <a href="#">TUTORIAIS</a></p>
-					<p class="prompt">Se a página deveria existir, entre em contato por e-mail <a href="#">aqui</a></p>
-					<p class="prompt">Você também fazer uma nova busca utilizando o campo abaixo.<br>Basta apenas digitar e apertar 'Enter'.</p>
+					<p class="prompt"><a href="http://arianimartins.com">HOME</a></p>
+					<p class="prompt">Se a página deveria existir, entre em contato através do formulário de contato <a href="http://arianimartins.com/contato/">aqui</a></p>
+					<p class="prompt">Você também fazer uma nova busca utilizando o campo abaixo.<br>Basta digitar e apertar 'Enter'.</p>
 					<p class="prompt output new-output"></p>		
 				</div>
 			</article>

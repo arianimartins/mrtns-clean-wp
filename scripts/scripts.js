@@ -18,12 +18,16 @@
 
 
 //PEGA ALTURA DO FOOTER E AJUSTA MARGIM DO WRAPPER
-	jQuery(document).ready(function($){
-		var $footer = $('footer');
-		var $footerHeight = $footer.height();
+	/*jQuery(document).ready(function($){
+		setTimeout(function(){
 
-		$('section.main-section').delay(300).css({'padding-bottom':$footerHeight + 30});
-	});
+			var $footer = $('footer');
+			var $footerHeight = $footer.height();
+			$('section.main-section').css({'padding-bottom':$footerHeight + 30});
+
+		},2000);
+
+	});*/
 
 
 //---------------------------------------ANIMAÇÕES
@@ -43,6 +47,8 @@
 		$('.logo-image').animateCss('fadeInDownBig');
 		$('article').animateCss('fadeInLeft');
 		$('aside *').animateCss('fadeInRight');
+		$('.flower1').animateCss('fadeIdLeft');
+		$('.flower2').animateCss('fadeIdRight');
 	});
 
 

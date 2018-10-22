@@ -2,7 +2,7 @@
 
 //Carrega folha de estilo e scripts
 function add_theme_scripts(){
-	wp_enqueue_style('style', get_stylesheet_uri(), false, '2.0', 'all');
+	wp_enqueue_style('style', get_stylesheet_uri(), false, '2.2', 'all');
 	//wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.2', 'all' );
 	wp_enqueue_script('scripts', get_template_directory_uri() .'/scripts/scripts.js', array('jquery'), null, true);
 }
