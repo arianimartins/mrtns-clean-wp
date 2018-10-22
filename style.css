@@ -477,6 +477,24 @@ nav .menu ul li a:hover, nav .menu-menu-principal-container ul li a:hover {
     padding-bottom: 300px;
   }
 }
+@media screen and (max-width: 700px) {
+  .main-section {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .image-resumo {
+    margin: 0 !important;
+    border: none !important;
+    width: 0 !important;
+    -ms-flex-preferred-size: 0 !important;
+    flex-basis: 0 !important;
+  }
+}
 .content-section {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -903,7 +921,7 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
   display: flex;
 }
 .resumo-posts .excerpt-container .image-resumo {
-  width: 20%;
+  width: 50%;
   min-height: 150px;
   background-position: center;
   background-size: cover;
