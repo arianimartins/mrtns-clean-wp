@@ -14,6 +14,5 @@
 
 </div>
 	<?php wp_footer(); ?>
-	<script project="8755PN" src="https://cdn.anymod.com/v1"></script>
 </body>
 </html>
