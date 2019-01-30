@@ -336,6 +336,7 @@ p, ol, ul {
   font-weight: normal;
   font-style: normal;
 }*/
+/*$linkColor: #4DB6AD;*/
 /*$personalFont: 'arianimartinsfont', sans-serif;*/
 html {
   overflow-x: hidden;
@@ -504,7 +505,7 @@ nav .menu ul li a:hover, nav .menu-menu-principal-container ul li a:hover {
   padding: 40px;
 }
 .content-section a {
-  color: #4DB6AD;
+  color: #ff0074;
 }
 
 aside {
@@ -545,7 +546,7 @@ aside ul li {
   text-align: left;
 }
 aside ul li a {
-  color: #4DB6AD;
+  color: #ff0074;
 }
 aside #tweets li {
   margin-bottom: 20px;
@@ -554,10 +555,10 @@ aside #tweets li {
   font-size: 13px;
 }
 aside #calendar_wrap {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.4)), to(#4DB6AD)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
-  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4), #4DB6AD), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
-  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.4), #4DB6AD), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), #4DB6AD), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.4)), to(#ff0074)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4), #ff0074), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
+  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.4), #ff0074), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), #ff0074), url(https://snap-photos.s3.amazonaws.com/img-thumbs/280h/HZZKGVVJ6I.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   text-align: center;
@@ -585,14 +586,14 @@ aside .tempost {
   height: 22px;
 }
 aside #calendar_wrap tbody a {
-  color: #4DB6AD;
+  color: #ff0074;
   text-decoration: none;
   text-align: center;
 }
 aside #today {
   width: 20px;
   height: 20px;
-  background: #4DB6AD;
+  background: #ff0074;
   border-radius: 50%;
 }
 aside #wp-calendar caption {
@@ -661,7 +662,7 @@ aside .wpp-thumbnail {
   border-radius: 50%;
 }
 aside .wpp-list a {
-  color: #4DB6AD;
+  color: #ff0074;
   text-decoration: none;
 }
 aside #mc_embed_signup input[type="text"],
@@ -681,7 +682,7 @@ aside #mc_embed_signup input[type="submit"] {
   position: relative;
   cursor: pointer;
   border: none;
-  background-color: #4DB6AD;
+  background-color: #ff0074;
   color: #fff;
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 5px -1px #999;
@@ -725,7 +726,7 @@ footer {
 }
 footer a {
   text-decoration: underline;
-  color: #4DB6AD;
+  color: #ff0074;
 }
 footer .footer-content {
   padding-bottom: 50px;
@@ -759,10 +760,10 @@ footer .footer-content .widget-footer li {
   font-size: 13px;
 }
 footer .footer-content .widget-footer li a {
-  color: #4DB6AD;
+  color: #ff0074;
 }
 footer .footer-content .widget-footer-title {
-  color: #4DB6AD;
+  color: #ff0074;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -773,7 +774,7 @@ footer .footer-content .widget-footer-title {
 footer .footer-content .widget-footer-title:before, footer .footer-content .widget-footer-title:after {
   content: '';
   width: 20px;
-  background: #4DB6AD;
+  background: #ff0074;
   height: 1px;
   display: inline-block;
   vertical-align: middle;
@@ -833,7 +834,7 @@ footer .copyright {
 }
 
 .topbutton {
-  background: none repeat scroll 0 0 #4DB6AD;
+  background: none repeat scroll 0 0 #ff0074;
   border-radius: 50%;
   color: white !important;
   bottom: 2em;
@@ -948,7 +949,7 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
   display: inline-block;
 }
 .terminal .prompt a {
-  color: #4DB6AD;
+  color: #ff0074;
 }
 .terminal .new-output {
   display: inline-block;
@@ -1093,7 +1094,7 @@ p.prompt.erro404 {
   box-sizing: border-box;
 }
 .full-article .comentar a {
-  color: #4DB6AD;
+  color: #ff0074;
   text-decoration: none;
   font-family: monospace;
   font-size: 15px;
@@ -1113,7 +1114,7 @@ p.prompt.erro404 {
   text-decoration: underline;
 }
 .post-detail-footer .post-tags a {
-  background: #4DB6AD;
+  background: #ff0074;
   padding: 0px 5px;
   border-radius: 5px;
   color: #fff;
@@ -1221,11 +1222,11 @@ p.prompt.erro404 {
 }
 
 .view-comentarios .comment-body a {
-  color: #4DB6AD;
+  color: #ff0074;
 }
 
 .comment-body .reply a {
-  background: #4DB6AD;
+  background: #ff0074;
   padding: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -1243,7 +1244,7 @@ p.prompt.erro404 {
 }
 
 .view-comentarios .bypostauthor .comment-body {
-  border-left: 5px solid #4DB6AD;
+  border-left: 5px solid #ff0074;
 }
 
 .view-comentarios .comment-author.vcard {
@@ -1415,7 +1416,7 @@ input#submit {
   position: relative;
   cursor: pointer;
   border: none;
-  background-color: #4DB6AD;
+  background-color: #ff0074;
   color: white;
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 5px -1px #999;
