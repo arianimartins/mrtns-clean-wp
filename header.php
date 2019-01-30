@@ -44,8 +44,8 @@
 			</nav>
 
 			<section class="logo-section">
-				<img class="flower1" src="http://sites.google.com/site/arianimartinshost/imagens/flower1.png">
-				<img class="flower2" src="http://sites.google.com/site/arianimartinshost/imagens/flower2.png">
+				<!--<img class="flower1" src="http://sites.google.com/site/arianimartinshost/imagens/flower1.png">
+				<img class="flower2" src="http://sites.google.com/site/arianimartinshost/imagens/flower2.png">-->
 				<img class="logo-image" src="http://sites.google.com/site/arianimartinshost/imagens/Assinatura1.png">
 			</section>
 		</header>
