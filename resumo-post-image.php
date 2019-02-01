@@ -13,6 +13,6 @@
 		</div>
 	</article>
 	<div class="post-divider">
-		<img src="http://sites.google.com/site/arianimartinshost/imagens/divisoria1.png">
+		<img src="http://sites.google.com/site/arianimartinshost/imagens/divider.jpg">
 	</div>
 </div>

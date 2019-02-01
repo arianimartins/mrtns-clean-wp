@@ -11,8 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: two-columns, right-sidebar, featured-images, full-width-template, translation-ready
 Text Domain: ariani-martins-simple;
 */
-@import url("https://fonts.googleapis.com/css?family=Lora|Raleway");
-@import url("http://fonts.googleapis.com/css?family=Cookie");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Sarabun");
 /***************************************************
 ---------------------------------------------------
 normalize.scss v0.1.0 | MIT License
@@ -349,7 +348,7 @@ html, body {
 body {
   background: #ffffff;
   color: #777;
-  font-family: "Lora", serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 .main-div {
@@ -400,7 +399,7 @@ nav .menu ul li a, nav .menu-menu-principal-container ul li a {
   box-sizing: border-box;
   height: inherit;
   line-height: 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 13px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -525,7 +524,7 @@ aside {
   /*fim - inscricao*/
 }
 aside .widget-sidebar-title {
-  font-family: "Cookie", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   word-spacing: 5px;
   margin: 50px 0 10px 0;
@@ -705,7 +704,7 @@ aside #mc_embed_signup input[type="submit"] {
 
 .full-article .post-title {
   color: #000;
-  font-family: "Cookie", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 40px;
   margin-bottom: 0;
 }
@@ -721,7 +720,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 14px;
 }
 footer a {
@@ -764,7 +763,7 @@ footer .footer-content .widget-footer li a {
 }
 footer .footer-content .widget-footer-title {
   color: #ff0074;
-  font-family: "Raleway", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 18px;
   text-align: center;
   width: 50%;
@@ -794,7 +793,7 @@ footer .copyright {
 }
 
 .personalFont {
-  font-family: "Cookie", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 55px;
   color: #000;
   font-weight: normal;
@@ -861,7 +860,7 @@ footer .copyright {
 }
 
 h1, h2, h3, .resumo-post-title {
-  font-family: "Raleway", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: lighter;
 }
 h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
@@ -871,15 +870,15 @@ h1 h1, h2 h1, h3 h1, .resumo-post-title h1 {
 .resumo-post-title {
   margin-bottom: 0px;
   color: #000;
-  font-size: 45px;
-  font-family: "Cookie", sans-serif;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
 }
 
 .post-divider {
   text-align: center;
 }
 .post-divider img {
-  width: 40%;
+  width: 10%;
   margin: auto;
 }
 
@@ -1169,7 +1168,7 @@ p.prompt.erro404 {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "Cookie", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 60px;
 }
 

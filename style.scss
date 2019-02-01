@@ -11,8 +11,7 @@ Tags: two-columns, right-sidebar, featured-images, full-width-template, translat
 Text Domain: ariani-martins-simple;
 */
 
-@import url('https://fonts.googleapis.com/css?family=Lora|Raleway');
-@import url('http://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Sarabun');
 
 /***************************************************
 ---------------------------------------------------
@@ -125,9 +124,9 @@ $mainColor: #ff0074;
 $linkColor: #ff0074;
 /*$linkColor: #4DB6AD;*/
 /*$personalFont: 'arianimartinsfont', sans-serif;*/
-$fontTitle: 'Raleway', sans-serif;
-$personalFont: 'Cookie', sans-serif;
-$fontContent: 'Lora', serif;
+$fontTitle: 'Playfair Display', serif;
+$personalFont: 'Playfair Display', serif;
+$fontContent: 'Sarabun', sans-serif;
 $asideDivider: #c0c0c040;
 $copyBackground: #000;
 
@@ -191,7 +190,7 @@ nav{
     				box-sizing: border-box;
     				height: inherit;
     				line-height: 50px;
-    				font-family: $fontTitle;
+    				font-family: $fontContent;
     				font-size: 13px;
     				transition: all 0.5s;
 
@@ -666,14 +665,14 @@ h1,h2,h3, .resumo-post-title{
 .resumo-post-title{
 	margin-bottom: 0px;
 	color: $textStrongColor;
-	font-size: 45px;
+	font-size: 40px;
 	font-family: $personalFont;
 }
 
 .post-divider{
 	text-align: center;
 	img{
-		width: 40%;
+		width: 10%;
 		margin: auto; 
 	}
 }
